@@ -27,6 +27,9 @@ DATABASES['default']['ATOMIC_REQUESTS'] = True
 # URLs
 ROOT_URLCONF = 'config.urls'
 
+# Users & Authentication
+AUTH_USER_MODEL = 'users.User'
+
 # WSGI
 WSGI_APPLICATION = 'config.wsgi.application'
 
